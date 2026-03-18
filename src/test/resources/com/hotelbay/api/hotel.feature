@@ -4,7 +4,7 @@ Feature : Hotel Administration
     When the administrator submits a request to create a new hotel with name, description, location, and contact information
     Then the system should store the hotel information And the system should return the created hotel details
 
-  Scenario: Update hotel information Gven a hotel already exists in the system
+  Scenario: Update hotel information Ggit push -u origin feature/your-featureven a hotel already exists in the system
     When the administrator updates the hotel description or contact information
     Then the system should save the updated hotel information
 
