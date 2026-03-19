@@ -11,3 +11,8 @@ Feature: Room Management
     When the administrator updates the room description or price
     Then the system should save the updated room information
 
+  Scenario: Delete room
+    Given a room exists in a hotel
+    When the administrator deletes the room
+    Then the room should be removed from the list of available rooms
+    And past reservations should remain recorded
