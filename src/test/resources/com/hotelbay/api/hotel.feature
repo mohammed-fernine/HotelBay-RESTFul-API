@@ -28,3 +28,4 @@ Feature : Hotel Administration
     When a user requests the list of hotels
     Then the system should return all registered hotels
 
+hahaHh
