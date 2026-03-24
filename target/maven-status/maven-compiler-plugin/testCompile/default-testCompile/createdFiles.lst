@@ -1,2 +1,3 @@
 com\hotelbay\api\RunCucumberTest.class
 com\hotelbay\api\StepDefinitions.class
+com\hotelbay\api\controllers\RoomCategoryController.class
