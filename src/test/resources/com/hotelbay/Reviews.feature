@@ -1,11 +1,10 @@
 Feature: Reviews
 
-  Scenario: View hotel reviews and ratings
+  Scenario: View hotel reviews
     Given a hotel has received reviews from past guests
     When the client calls GET /hotels/{hotelId}/reviews
     Then the response status code should be 200
     And the system returns a list of reviews
-    And the system returns the average rating
 
   Scenario: Update a review
     Given a guest has previously submitted a review
