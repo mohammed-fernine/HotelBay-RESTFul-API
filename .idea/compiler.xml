@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HotelBay-RESTFul-API" />
+        <module name="hotelbay-api" />
       </profile>
     </annotationProcessing>
   </component>
