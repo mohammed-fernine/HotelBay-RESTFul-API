@@ -17,3 +17,9 @@ Feature: Refund Management
     When the system processes the transaction via PUT /refunds/{id}/process
     Then the API returns status code of 200
     And the refund status is marked as completed
+
+  Scenario: Reject refund request for invalid reservation
+    Given a reservation is not eligible for a refund
+    When the client calls POST /refunds with the reservation ID
+    Then the response status code should be 400
+    And an error message is returned

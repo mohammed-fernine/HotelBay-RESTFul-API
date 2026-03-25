@@ -2,25 +2,19 @@ Feature: Reviews
 
   Scenario: View hotel reviews and ratings
     Given a hotel has received reviews from past guests
-    When a user calls GET /hotels/{hotelId}/reviews
-    Then the client receives status code of 200
-    And the system returns a list of reviews and the average rating
+    When the client calls GET /hotels/{hotelId}/reviews
+    Then the response status code should be 200
+    And the system returns a list of reviews
+    And the system returns the average rating
 
-
-
-  Scenario: Update review
-    Given the guest has previously submitted a review
+  Scenario: Update a review
+    Given a guest has previously submitted a review
     When the client calls PUT /reviews/{id} with an updated description
-    Then the client receives status code of 200
-    And the system saves the modified review text
+    Then the response status code should be 200
+    And the system updates the review text
 
-
-
-  Scenario: Add review
-    Given the guest has a completed reservation for the hotel
+  Scenario: Add a review
+    Given a guest has a completed reservation for the hotel
     When the client calls POST /hotels/{hotelId}/reviews with a textual description
-    Then the client receives status code of 201
+    Then the response status code should be 201
     And the review is saved to the hotel profile
-
-
-
