@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 import java.util.List;
 
 public class RefundStepDefinition extends StepDefinitions {
-    //Refund Step Definitions
+
     @Given("a guest has a canceled reservation eligible for a refund")
     public void a_guest_has_a_canceled_reservation_eligible_for_a_refund() {
         // Write code here that turns the phrase above into concrete actions
