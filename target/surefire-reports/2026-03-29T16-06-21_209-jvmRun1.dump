@@ -1,0 +1,18 @@
+# Created at 2026-03-29T16:06:22.106
+org.junit.platform.launcher.core.DiscoveryIssueException: TestEngine with ID 'junit-platform-suite' encountered a critical issue during test discovery:
+
+(1) [ERROR] [cucumber] Failed to parse resource at: classpath:com/hotelbay/Hotel.feature
+(1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Feature : Hotel Administration'
+(3:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: Create hotel Given an administrator is authenticated'
+(4:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'When the administrator submits a request to create a new hotel with name, description, location, and contact information'
+(5:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Then the system should store the hotel information And the system should return the created hotel details'
+(7:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: Update hotel information Ggit push -u origin feature/your-featureven a hotel already exists in the system'
+(8:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'When the administrator updates the hotel description or contact information'
+(9:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Then the system should save the updated hotel information'
+(11:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: Activate hotel'
+(12:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Given a hotel exists but is inactive'
+(13:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'When the administrator activates the hotel'
+(14:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Then the hotel should become available for room searches and reservations' (via @Suite com.hotelbay.RunCucumberTest).
+    Source: ClasspathResourceSource [classpathResourceName = 'com/hotelbay/Hotel.feature', filePosition = null]
+
+
