@@ -1,2 +1,4 @@
 C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\src\test\java\com\hotelbay\RunCucumberTest.java
-C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\src\test\java\com\hotelbay\StepDefinitions.java
+C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\src\test\java\com\hotelbay\steps\RatingStepDefinition.java
+C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\src\test\java\com\hotelbay\steps\RefundStepDefinition.java
+C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\src\test\java\com\hotelbay\steps\ReviewsStepDefination.java

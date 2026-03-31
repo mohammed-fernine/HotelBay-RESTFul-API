@@ -1,16 +1,10 @@
-package com.hotelbay;
+package com.hotelbay.steps;
 
-import io.cucumber.core.backend.CucumberBackendException;
-import io.cucumber.core.backend.CucumberInvocationTargetException;
-import io.cucumber.core.backend.ParameterInfo;
-import io.cucumber.core.backend.StepDefinition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import java.util.List;
-
-public class RefundStepDefinition extends StepDefinitions {
+public class RefundStepDefinition {
 
     @Given("a guest has a canceled reservation eligible for a refund")
     public void a_guest_has_a_canceled_reservation_eligible_for_a_refund() {

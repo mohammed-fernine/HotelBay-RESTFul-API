@@ -1,10 +1,10 @@
-package com.hotelbay;
+package com.hotelbay.steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class ReviewsStepDefination extends StepDefinitions{
+public class ReviewsStepDefination {
     @Given("a hotel has received reviews from past guests")
     public void a_hotel_has_received_reviews_from_past_guests() {
         // Write code here that turns the phrase above into concrete actions

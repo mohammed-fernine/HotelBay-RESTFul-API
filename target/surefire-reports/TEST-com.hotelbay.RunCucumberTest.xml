@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.hotelbay.RunCucumberTest" time="0.411" tests="37" errors="37" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.hotelbay.RunCucumberTest" time="0.407" tests="37" errors="34" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\ferni\AppData\Local\Temp\surefire8664397135739590906\surefirebooter-20260329164553073_3.jar C:\Users\ferni\AppData\Local\Temp\surefire8664397135739590906 2026-03-29T16-45-52_826-jvmRun1 surefire-20260329164553073_1tmp surefire_0-20260329164553073_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ferni\AppData\Local\Temp\surefire2911179681766379104\surefirebooter-20260331191607879_3.jar C:\Users\ferni\AppData\Local\Temp\surefire2911179681766379104 2026-03-31T19-16-07_783-jvmRun1 surefire-20260331191607879_1tmp surefire_0-20260331191607879_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\target\test-classes;C:\Users\ferni\Desktop\university of evora\semester 02\software\HotelBay-RESTFul-API\target\classes;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-java\7.34.2\cucumber-java-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-core\7.34.2\cucumber-core-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin\7.34.2\cucumber-gherkin-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.2\cucumber-gherkin-messages-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\messages-ndjson\0.3.0\messages-ndjson-0.3.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\ferni\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\datatable\7.34.2\datatable-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-plugin\7.34.2\cucumber-plugin-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\docstring\7.34.2\docstring-7.34.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\ferni\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.34.2\cucumber-junit-platform-engine-7.34.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-engine\1.14.2\junit-platform-engine-1.14.2.jar;C:\Users\ferni\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-commons\1.14.2\junit-platform-commons-1.14.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite\1.14.2\junit-platform-suite-1.14.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-api\1.14.2\junit-platform-suite-api-1.14.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.14.2\junit-platform-suite-engine-1.14.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.14.2\junit-platform-suite-commons-1.14.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-launcher\1.14.2\junit-platform-launcher-1.14.2.jar;C:\Users\ferni\.m2\repository\org\assertj\assertj-core\3.27.7\assertj-core-3.27.7.jar;C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy\1.18.3\byte-buddy-1.18.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ferni\AppData\Local\Temp\surefire8664397135739590906\surefirebooter-20260329164553073_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ferni\AppData\Local\Temp\surefire2911179681766379104\surefirebooter-20260331191607879_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="Hotel Administration - Create hotel" classname="RunCucumberTest" time="0.101">
+  <testcase name="Hotel Administration - Create hotel" classname="RunCucumberTest" time="0.117">
     <error message="The step &apos;an administrator is authenticated&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;an administrator is authenticated&quot;)&#10;public void an_administrator_is_authenticated() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator submits a request to create a new hotel with name, description, location, and contact information&quot;)&#10;public void the_administrator_submits_a_request_to_create_a_new_hotel_with_name_description_location_and_contact_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should store the hotel information&quot;)&#10;public void the_system_should_store_the_hotel_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should return the created hotel details&quot;)&#10;public void the_system_should_return_the_created_hotel_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'an administrator is authenticated' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -95,7 +95,7 @@ public void the_system_should_return_the_created_hotel_details() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system should return the created hotel details&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Hotel Administration - Update hotel information" classname="RunCucumberTest" time="0.007">
+  <testcase name="Hotel Administration - Update hotel information" classname="RunCucumberTest" time="0.006">
     <error message="The step &apos;a hotel already exists in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a hotel already exists in the system&quot;)&#10;public void a_hotel_already_exists_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator updates the hotel description or contact information&quot;)&#10;public void the_administrator_updates_the_hotel_description_or_contact_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should save the updated hotel information&quot;)&#10;public void the_system_should_save_the_updated_hotel_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a hotel already exists in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -221,7 +221,7 @@ public void the_system_should_return_the_hotel_name_description_location_and_ser
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should return the hotel name, description, location, and services&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Hotel Administration - List all hotels" classname="RunCucumberTest" time="0.006">
+  <testcase name="Hotel Administration - List all hotels" classname="RunCucumberTest" time="0.005">
     <error message="The step &apos;multiple hotels exist in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;multiple hotels exist in the system&quot;)&#10;public void multiple_hotels_exist_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;a user requests the list of hotels&quot;)&#10;public void a_user_requests_the_list_of_hotels() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should return all registered hotels&quot;)&#10;public void the_system_should_return_all_registered_hotels() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'multiple hotels exist in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -251,405 +251,164 @@ public void the_system_should_return_all_registered_hotels() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should return all registered hotels&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Ratings - Add a rating" classname="RunCucumberTest" time="0.006">
-    <error message="The step &apos;a guest has completed their stay&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has completed their stay&quot;)&#10;public void a_guest_has_completed_their_stay() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/hotels\\/\\{hotelId}\\/ratings with a score&quot;)&#10;public void the_client_calls_post_hotels_ratings_with_a_score() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the rating is saved&quot;)&#10;public void the_rating_is_saved() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has completed their stay' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has completed their stay")
-public void a_guest_has_completed_their_stay() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls POST \\/hotels\\/\\{hotelId}\\/ratings with a score")
-public void the_client_calls_post_hotels_ratings_with_a_score() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the rating is saved")
-public void the_rating_is_saved() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Ratings - Add a rating" classname="RunCucumberTest" time="0.013">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay(RatingStepDefinition.java:12)
 	at ✽.a guest has completed their stay(classpath:com/hotelbay/Rating.feature:4)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Add a rating                                                &amp#27;[90m# classpath:com/hotelbay/Rating.feature:3&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has completed their stay&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /hotels/{hotelId}/ratings with a score&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 201&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe rating is saved&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has completed their stay&amp#27;[39m                            &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay(RatingStepDefinition.java:12)&amp#27;[39m
+        &amp#27;[33m	at ✽.a guest has completed their stay(classpath:com/hotelbay/Rating.feature:4)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /hotels/{hotelId}/ratings with a score&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_client_calls_post_hotels_ratings_with_a_score()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m201&amp#27;[22m&amp#27;[39m                       &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe rating is saved&amp#27;[39m                                           &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_rating_is_saved()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Ratings - View average rating" classname="RunCucumberTest" time="0.007">
-    <error message="The step &apos;a hotel has ratings&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a hotel has ratings&quot;)&#10;public void a_hotel_has_ratings() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/hotels\\/\\{hotelId}\\/rating&quot;)&#10;public void the_client_calls_get_hotels_rating() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns the average rating&quot;)&#10;public void the_system_returns_the_average_rating() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a hotel has ratings' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a hotel has ratings")
-public void a_hotel_has_ratings() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls GET \\/hotels\\/\\{hotelId}\\/rating")
-public void the_client_calls_get_hotels_rating() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the system returns the average rating")
-public void the_system_returns_the_average_rating() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Ratings - View average rating" classname="RunCucumberTest" time="0.003">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RatingStepDefinition.a_hotel_has_ratings(RatingStepDefinition.java:28)
 	at ✽.a hotel has ratings(classpath:com/hotelbay/Rating.feature:10)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m View average rating                          &amp#27;[90m# classpath:com/hotelbay/Rating.feature:9&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma hotel has ratings&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /hotels/{hotelId}/rating&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns the average rating&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma hotel has ratings&amp#27;[39m                          &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.a_hotel_has_ratings()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RatingStepDefinition.a_hotel_has_ratings(RatingStepDefinition.java:28)&amp#27;[39m
+        &amp#27;[33m	at ✽.a hotel has ratings(classpath:com/hotelbay/Rating.feature:10)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /hotels/{hotelId}/rating&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_client_calls_get_hotels_rating()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m200&amp#27;[22m&amp#27;[39m        &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns the average rating&amp#27;[39m          &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_system_returns_the_average_rating()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Ratings - Update a rating" classname="RunCucumberTest" time="0.007">
-    <error message="The step &apos;a guest has submitted a rating&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has submitted a rating&quot;)&#10;public void a_guest_has_submitted_a_rating() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls PUT \\/ratings\\/\\{id} with a new score&quot;)&#10;public void the_client_calls_put_ratings_with_a_new_score() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the rating is updated&quot;)&#10;public void the_rating_is_updated() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has submitted a rating' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has submitted a rating")
-public void a_guest_has_submitted_a_rating() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls PUT \\/ratings\\/\\{id} with a new score")
-public void the_client_calls_put_ratings_with_a_new_score() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the rating is updated")
-public void the_rating_is_updated() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Ratings - Update a rating" classname="RunCucumberTest" time="0.004">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_submitted_a_rating(RatingStepDefinition.java:44)
 	at ✽.a guest has submitted a rating(classpath:com/hotelbay/Rating.feature:16)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Update a rating                                    &amp#27;[90m# classpath:com/hotelbay/Rating.feature:15&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has submitted a rating&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls PUT /ratings/{id} with a new score&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe rating is updated&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has submitted a rating&amp#27;[39m                     &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.a_guest_has_submitted_a_rating()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_submitted_a_rating(RatingStepDefinition.java:44)&amp#27;[39m
+        &amp#27;[33m	at ✽.a guest has submitted a rating(classpath:com/hotelbay/Rating.feature:16)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls PUT /ratings/{id} with a new score&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_client_calls_put_ratings_with_a_new_score()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m200&amp#27;[22m&amp#27;[39m              &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe rating is updated&amp#27;[39m                                &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.the_rating_is_updated()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Ratings - Reject invalid rating" classname="RunCucumberTest" time="0.009">
-    <error message="The step &apos;a guest has completed their stay&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has completed their stay&quot;)&#10;public void a_guest_has_completed_their_stay() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/hotels\\/\\{hotelId}\\/ratings with an invalid score&quot;)&#10;public void the_client_calls_post_hotels_ratings_with_an_invalid_score() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;an error message is returned&quot;)&#10;public void an_error_message_is_returned() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has completed their stay' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has completed their stay")
-public void a_guest_has_completed_their_stay() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls POST \\/hotels\\/\\{hotelId}\\/ratings with an invalid score")
-public void the_client_calls_post_hotels_ratings_with_an_invalid_score() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("an error message is returned")
-public void an_error_message_is_returned() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Ratings - Reject invalid rating" classname="RunCucumberTest" time="0.006">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay(RatingStepDefinition.java:12)
 	at ✽.a guest has completed their stay(classpath:com/hotelbay/Rating.feature:22)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Reject invalid rating                                                &amp#27;[90m# classpath:com/hotelbay/Rating.feature:21&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has completed their stay&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has completed their stay&amp#27;[39m                                     &amp#27;[90m# com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RatingStepDefinition.a_guest_has_completed_their_stay(RatingStepDefinition.java:12)&amp#27;[39m
+        &amp#27;[33m	at ✽.a guest has completed their stay(classpath:com/hotelbay/Rating.feature:22)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /hotels/{hotelId}/ratings with an invalid score&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 400&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22man error message is returned&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m400&amp#27;[22m&amp#27;[39m                                &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22man error message is returned&amp#27;[39m                                           &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.an_error_message_is_returned()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Refund Management - Request refund" classname="RunCucumberTest" time="0.007">
-    <error message="The step &apos;a guest has a canceled reservation eligible for a refund&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has a canceled reservation eligible for a refund&quot;)&#10;public void a_guest_has_a_canceled_reservation_eligible_for_a_refund() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/refunds with the reservation ID&quot;)&#10;public void the_client_calls_post_refunds_with_the_reservation_id() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the refund request is recorded as pending&quot;)&#10;public void the_refund_request_is_recorded_as_pending() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has a canceled reservation eligible for a refund' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has a canceled reservation eligible for a refund")
-public void a_guest_has_a_canceled_reservation_eligible_for_a_refund() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls POST \\/refunds with the reservation ID")
-public void the_client_calls_post_refunds_with_the_reservation_id() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the refund request is recorded as pending")
-public void the_refund_request_is_recorded_as_pending() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Refund Management - Request refund" classname="RunCucumberTest" time="0.004">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RefundStepDefinition.a_guest_has_a_canceled_reservation_eligible_for_a_refund(RefundStepDefinition.java:12)
 	at ✽.a guest has a canceled reservation eligible for a refund(classpath:com/hotelbay/Refund.feature:4)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Request refund                                           &amp#27;[90m# classpath:com/hotelbay/Refund.feature:3&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has a canceled reservation eligible for a refund&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /refunds with the reservation ID&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 201&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund request is recorded as pending&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has a canceled reservation eligible for a refund&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.a_guest_has_a_canceled_reservation_eligible_for_a_refund()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RefundStepDefinition.a_guest_has_a_canceled_reservation_eligible_for_a_refund(RefundStepDefinition.java:12)&amp#27;[39m
+        &amp#27;[33m	at ✽.a guest has a canceled reservation eligible for a refund(classpath:com/hotelbay/Refund.feature:4)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /refunds with the reservation ID&amp#27;[39m    &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_calls_post_refunds_with_the_reservation_id()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m201&amp#27;[22m&amp#27;[39m                    &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund request is recorded as pending&amp#27;[39m                  &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_refund_request_is_recorded_as_pending()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Refund Management - Approve refund" classname="RunCucumberTest" time="0.007">
-    <error message="The step &apos;a pending refund request exists&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a pending refund request exists&quot;)&#10;public void a_pending_refund_request_exists() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator calls PUT \\/refunds\\/\\{id}\\/approve&quot;)&#10;public void the_administrator_calls_put_refunds_approve() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the administrator receives status code of {int}&quot;)&#10;public void the_administrator_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the refund status is updated to approved&quot;)&#10;public void the_refund_status_is_updated_to_approved() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a pending refund request exists' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a pending refund request exists")
-public void a_pending_refund_request_exists() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the administrator calls PUT \\/refunds\\/\\{id}\\/approve")
-public void the_administrator_calls_put_refunds_approve() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the administrator receives status code of {int}")
-public void the_administrator_receives_status_code_of(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the refund status is updated to approved")
-public void the_refund_status_is_updated_to_approved() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Refund Management - Approve refund" classname="RunCucumberTest" time="0.005">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RefundStepDefinition.a_pending_refund_request_exists(RefundStepDefinition.java:33)
 	at ✽.a pending refund request exists(classpath:com/hotelbay/Refund.feature:10)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Approve refund                                   &amp#27;[90m# classpath:com/hotelbay/Refund.feature:9&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma pending refund request exists&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe administrator calls PUT /refunds/{id}/approve&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe administrator receives status code of 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund status is updated to approved&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma pending refund request exists&amp#27;[39m                  &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.a_pending_refund_request_exists()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RefundStepDefinition.a_pending_refund_request_exists(RefundStepDefinition.java:33)&amp#27;[39m
+        &amp#27;[33m	at ✽.a pending refund request exists(classpath:com/hotelbay/Refund.feature:10)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe administrator calls PUT /refunds/{id}/approve&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_administrator_calls_put_refunds_approve()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe administrator receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m     &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_administrator_receives_status_code_of(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund status is updated to approved&amp#27;[39m           &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_refund_status_is_updated_to_approved()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Refund Management - Process refund" classname="RunCucumberTest" time="0.005">
-    <error message="The step &apos;an administrator has approved a refund request&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;an administrator has approved a refund request&quot;)&#10;public void an_administrator_has_approved_a_refund_request() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the system processes the transaction via PUT \\/refunds\\/\\{id}\\/process&quot;)&#10;public void the_system_processes_the_transaction_via_put_refunds_process() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the API returns status code of {int}&quot;)&#10;public void the_api_returns_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the refund status is marked as completed&quot;)&#10;public void the_refund_status_is_marked_as_completed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'an administrator has approved a refund request' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("an administrator has approved a refund request")
-public void an_administrator_has_approved_a_refund_request() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the system processes the transaction via PUT \\/refunds\\/\\{id}\\/process")
-public void the_system_processes_the_transaction_via_put_refunds_process() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the API returns status code of {int}")
-public void the_api_returns_status_code_of(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the refund status is marked as completed")
-public void the_refund_status_is_marked_as_completed() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Refund Management - Process refund" classname="RunCucumberTest" time="0.004">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RefundStepDefinition.an_administrator_has_approved_a_refund_request(RefundStepDefinition.java:54)
 	at ✽.an administrator has approved a refund request(classpath:com/hotelbay/Refund.feature:16)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Process refund                                                    &amp#27;[90m# classpath:com/hotelbay/Refund.feature:15&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22man administrator has approved a refund request&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe system processes the transaction via PUT /refunds/{id}/process&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe API returns status code of 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund status is marked as completed&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22man administrator has approved a refund request&amp#27;[39m                    &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.an_administrator_has_approved_a_refund_request()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RefundStepDefinition.an_administrator_has_approved_a_refund_request(RefundStepDefinition.java:54)&amp#27;[39m
+        &amp#27;[33m	at ✽.an administrator has approved a refund request(classpath:com/hotelbay/Refund.feature:16)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe system processes the transaction via PUT /refunds/{id}/process&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_system_processes_the_transaction_via_put_refunds_process()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe API returns status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                 &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_api_returns_status_code_of(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe refund status is marked as completed&amp#27;[39m                            &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_refund_status_is_marked_as_completed()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Refund Management - Reject refund request for invalid reservation" classname="RunCucumberTest" time="0.004">
-    <error message="The step &apos;a reservation is not eligible for a refund&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a reservation is not eligible for a refund&quot;)&#10;public void a_reservation_is_not_eligible_for_a_refund() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/refunds with the reservation ID&quot;)&#10;public void the_client_calls_post_refunds_with_the_reservation_id() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;an error message is returned&quot;)&#10;public void an_error_message_is_returned() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a reservation is not eligible for a refund' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a reservation is not eligible for a refund")
-public void a_reservation_is_not_eligible_for_a_refund() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls POST \\/refunds with the reservation ID")
-public void the_client_calls_post_refunds_with_the_reservation_id() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("an error message is returned")
-public void an_error_message_is_returned() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+  <testcase name="Refund Management - Reject refund request for invalid reservation" classname="RunCucumberTest" time="0.003">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at com.hotelbay.steps.RefundStepDefinition.a_reservation_is_not_eligible_for_a_refund(RefundStepDefinition.java:75)
 	at ✽.a reservation is not eligible for a refund(classpath:com/hotelbay/Refund.feature:22)
 ]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Reject refund request for invalid reservation         &amp#27;[90m# classpath:com/hotelbay/Refund.feature:21&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma reservation is not eligible for a refund&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /refunds with the reservation ID&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 400&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22man error message is returned&amp#27;[39m
+  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma reservation is not eligible for a refund&amp#27;[39m            &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.a_reservation_is_not_eligible_for_a_refund()&amp#27;[39m
+        &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me&amp#27;[39m
+        &amp#27;[33m	at com.hotelbay.steps.RefundStepDefinition.a_reservation_is_not_eligible_for_a_refund(RefundStepDefinition.java:75)&amp#27;[39m
+        &amp#27;[33m	at ✽.a reservation is not eligible for a refund(classpath:com/hotelbay/Refund.feature:22)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /refunds with the reservation ID&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_calls_post_refunds_with_the_reservation_id()&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m400&amp#27;[22m&amp#27;[39m                 &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22man error message is returned&amp#27;[39m                            &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.an_error_message_is_returned()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Reviews - View hotel reviews" classname="RunCucumberTest" time="0.004">
-    <error message="The step &apos;a hotel has received reviews from past guests&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a hotel has received reviews from past guests&quot;)&#10;public void a_hotel_has_received_reviews_from_past_guests() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/hotels\\/\\{hotelId}\\/reviews&quot;)&#10;public void the_client_calls_get_hotels_reviews() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns a list of reviews&quot;)&#10;public void the_system_returns_a_list_of_reviews() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a hotel has received reviews from past guests' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a hotel has received reviews from past guests")
-public void a_hotel_has_received_reviews_from_past_guests() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls GET \\/hotels\\/\\{hotelId}\\/reviews")
-public void the_client_calls_get_hotels_reviews() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the system returns a list of reviews")
-public void the_system_returns_a_list_of_reviews() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at ✽.a hotel has received reviews from past guests(classpath:com/hotelbay/Reviews.feature:4)
-]]></error>
+  <testcase name="Reviews - View hotel reviews" classname="RunCucumberTest" time="0.007">
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m View hotel reviews                            &amp#27;[90m# classpath:com/hotelbay/Reviews.feature:3&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma hotel has received reviews from past guests&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /hotels/{hotelId}/reviews&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns a list of reviews&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22ma hotel has received reviews from past guests&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.a_hotel_has_received_reviews_from_past_guests()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /hotels/{hotelId}/reviews&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_client_calls_get_hotels_reviews()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m200&amp#27;[22m&amp#27;[39m         &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe system returns a list of reviews&amp#27;[39m            &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_system_returns_a_list_of_reviews()&amp#27;[39m
 ]]></system-out>
   </testcase>
   <testcase name="Reviews - Update a review" classname="RunCucumberTest" time="0.003">
-    <error message="The step &apos;a guest has previously submitted a review&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has previously submitted a review&quot;)&#10;public void a_guest_has_previously_submitted_a_review() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls PUT \\/reviews\\/\\{id} with an updated description&quot;)&#10;public void the_client_calls_put_reviews_with_an_updated_description() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system updates the review text&quot;)&#10;public void the_system_updates_the_review_text() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has previously submitted a review' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has previously submitted a review")
-public void a_guest_has_previously_submitted_a_review() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls PUT \\/reviews\\/\\{id} with an updated description")
-public void the_client_calls_put_reviews_with_an_updated_description() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the system updates the review text")
-public void the_system_updates_the_review_text() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at ✽.a guest has previously submitted a review(classpath:com/hotelbay/Reviews.feature:10)
-]]></error>
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Update a review                                               &amp#27;[90m# classpath:com/hotelbay/Reviews.feature:9&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has previously submitted a review&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls PUT /reviews/{id} with an updated description&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 200&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system updates the review text&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22ma guest has previously submitted a review&amp#27;[39m                     &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.a_guest_has_previously_submitted_a_review()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe client calls PUT /reviews/{id} with an updated description&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_client_calls_put_reviews_with_an_updated_description()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m200&amp#27;[22m&amp#27;[39m                         &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe system updates the review text&amp#27;[39m                              &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_system_updates_the_review_text()&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Reviews - Add a review" classname="RunCucumberTest" time="0.004">
-    <error message="The step &apos;a guest has a completed reservation for the hotel&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a guest has a completed reservation for the hotel&quot;)&#10;public void a_guest_has_a_completed_reservation_for_the_hotel() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/hotels\\/\\{hotelId}\\/reviews with a textual description&quot;)&#10;public void the_client_calls_post_hotels_reviews_with_a_textual_description() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response status code should be {int}&quot;)&#10;public void the_response_status_code_should_be(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the review is saved to the hotel profile&quot;)&#10;public void the_review_is_saved_to_the_hotel_profile() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'a guest has a completed reservation for the hotel' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("a guest has a completed reservation for the hotel")
-public void a_guest_has_a_completed_reservation_for_the_hotel() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("the client calls POST \\/hotels\\/\\{hotelId}\\/reviews with a textual description")
-public void the_client_calls_post_hotels_reviews_with_a_textual_description() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the response status code should be {int}")
-public void the_response_status_code_should_be(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the review is saved to the hotel profile")
-public void the_review_is_saved_to_the_hotel_profile() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at ✽.a guest has a completed reservation for the hotel(classpath:com/hotelbay/Reviews.feature:16)
-]]></error>
+  <testcase name="Reviews - Add a review" classname="RunCucumberTest" time="0.003">
     <system-out><![CDATA[
 &amp#27;[1mScenario:&amp#27;[22m Add a review                                                              &amp#27;[90m# classpath:com/hotelbay/Reviews.feature:15&amp#27;[39m
-  &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22ma guest has a completed reservation for the hotel&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /hotels/{hotelId}/reviews with a textual description&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe response status code should be 201&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe review is saved to the hotel profile&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22ma guest has a completed reservation for the hotel&amp#27;[39m                         &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.a_guest_has_a_completed_reservation_for_the_hotel()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /hotels/{hotelId}/reviews with a textual description&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_client_calls_post_hotels_reviews_with_a_textual_description()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe response status code should be &amp#27;[1m201&amp#27;[22m&amp#27;[39m                                     &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_response_status_code_should_be(java.lang.Integer)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mthe review is saved to the hotel profile&amp#27;[39m                                    &amp#27;[90m# com.hotelbay.steps.ReviewsStepDefination.the_review_is_saved_to_the_hotel_profile()&amp#27;[39m
 ]]></system-out>
   </testcase>
   <testcase name="Booking Management - Create booking" classname="RunCucumberTest" time="0.006">
-    <error message="The step &apos;the client is authenticated as a guest&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is authenticated as a guest&quot;)&#10;public void the_client_is_authenticated_as_a_guest() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/bookings with reservation details&quot;)&#10;public void the_client_calls_post_bookings_with_reservation_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the pending booking is saved&quot;)&#10;public void the_pending_booking_is_saved() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client is authenticated as a guest' and 3 other step(s) are undefined.
+    <error message="The step &apos;the client is authenticated as a guest&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is authenticated as a guest&quot;)&#10;public void the_client_is_authenticated_as_a_guest() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/bookings with reservation details&quot;)&#10;public void the_client_calls_post_bookings_with_reservation_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the pending booking is saved&quot;)&#10;public void the_pending_booking_is_saved() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client is authenticated as a guest' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client is authenticated as a guest")
@@ -659,11 +418,6 @@ public void the_client_is_authenticated_as_a_guest() {
 }
 @When("the client calls POST \\/bookings with reservation details")
 public void the_client_calls_post_bookings_with_reservation_details() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -679,13 +433,13 @@ public void the_pending_booking_is_saved() {
 &amp#27;[1mScenario:&amp#27;[22m Create booking                                          &amp#27;[90m# classpath:com/hotelbay/booking_management.feature:3&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client is authenticated as a guest&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /bookings with reservation details&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 201&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m201&amp#27;[22m&amp#27;[39m                   &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe pending booking is saved&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Booking Management - Cancel booking" classname="RunCucumberTest" time="0.005">
-    <error message="The step &apos;the guest has a confirmed reservation&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has a confirmed reservation&quot;)&#10;public void the_guest_has_a_confirmed_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls PUT \\/bookings\\/\\{id}\\/cancel&quot;)&#10;public void the_client_calls_put_bookings_cancel() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the reservation is marked as canceled&quot;)&#10;public void the_reservation_is_marked_as_canceled() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the guest has a confirmed reservation' and 3 other step(s) are undefined.
+  <testcase name="Booking Management - Cancel booking" classname="RunCucumberTest" time="0.006">
+    <error message="The step &apos;the guest has a confirmed reservation&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has a confirmed reservation&quot;)&#10;public void the_guest_has_a_confirmed_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls PUT \\/bookings\\/\\{id}\\/cancel&quot;)&#10;public void the_client_calls_put_bookings_cancel() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the reservation is marked as canceled&quot;)&#10;public void the_reservation_is_marked_as_canceled() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the guest has a confirmed reservation' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the guest has a confirmed reservation")
@@ -695,11 +449,6 @@ public void the_guest_has_a_confirmed_reservation() {
 }
 @When("the client calls PUT \\/bookings\\/\\{id}\\/cancel")
 public void the_client_calls_put_bookings_cancel() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -715,13 +464,13 @@ public void the_reservation_is_marked_as_canceled() {
 &amp#27;[1mScenario:&amp#27;[22m Cancel booking                            &amp#27;[90m# classpath:com/hotelbay/booking_management.feature:9&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe guest has a confirmed reservation&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls PUT /bookings/{id}/cancel&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m     &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe reservation is marked as canceled&amp#27;[39m
 ]]></system-out>
   </testcase>
   <testcase name="Booking Management - View booking details" classname="RunCucumberTest" time="0.005">
-    <error message="The step &apos;the guest has an existing reservation&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has an existing reservation&quot;)&#10;public void the_guest_has_an_existing_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/bookings\\/\\{id}&quot;)&#10;public void the_client_calls_get_bookings() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns the reservation details&quot;)&#10;public void the_system_returns_the_reservation_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the guest has an existing reservation' and 3 other step(s) are undefined.
+    <error message="The step &apos;the guest has an existing reservation&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has an existing reservation&quot;)&#10;public void the_guest_has_an_existing_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/bookings\\/\\{id}&quot;)&#10;public void the_client_calls_get_bookings() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns the reservation details&quot;)&#10;public void the_system_returns_the_reservation_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the guest has an existing reservation' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the guest has an existing reservation")
@@ -731,11 +480,6 @@ public void the_guest_has_an_existing_reservation() {
 }
 @When("the client calls GET \\/bookings\\/\\{id}")
 public void the_client_calls_get_bookings() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -751,13 +495,13 @@ public void the_system_returns_the_reservation_details() {
 &amp#27;[1mScenario:&amp#27;[22m View booking details                     &amp#27;[90m# classpath:com/hotelbay/booking_management.feature:15&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe guest has an existing reservation&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /bookings/{id}&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m    &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns the reservation details&amp#27;[39m
 ]]></system-out>
   </testcase>
   <testcase name="Booking Management - List user bookings" classname="RunCucumberTest" time="0.005">
-    <error message="The step &apos;the client is authenticated as a guest&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is authenticated as a guest&quot;)&#10;public void the_client_is_authenticated_as_a_guest() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/users\\/\\{userId}\\/bookings&quot;)&#10;public void the_client_calls_get_users_bookings() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns a list of the user&apos;s reservations&quot;)&#10;public void the_system_returns_a_list_of_the_user_s_reservations() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client is authenticated as a guest' and 3 other step(s) are undefined.
+    <error message="The step &apos;the client is authenticated as a guest&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is authenticated as a guest&quot;)&#10;public void the_client_is_authenticated_as_a_guest() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/users\\/\\{userId}\\/bookings&quot;)&#10;public void the_client_calls_get_users_bookings() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns a list of the user&apos;s reservations&quot;)&#10;public void the_system_returns_a_list_of_the_user_s_reservations() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client is authenticated as a guest' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client is authenticated as a guest")
@@ -767,11 +511,6 @@ public void the_client_is_authenticated_as_a_guest() {
 }
 @When("the client calls GET \\/users\\/\\{userId}\\/bookings")
 public void the_client_calls_get_users_bookings() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -787,13 +526,13 @@ public void the_system_returns_a_list_of_the_user_s_reservations() {
 &amp#27;[1mScenario:&amp#27;[22m List user bookings                                 &amp#27;[90m# classpath:com/hotelbay/booking_management.feature:21&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client is authenticated as a guest&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /users/{userId}/bookings&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m              &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns a list of the user's reservations&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Booking Management - Check room availability" classname="RunCucumberTest" time="0.005">
-    <error message="The step &apos;the user provides check-in and check-out dates&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user provides check-in and check-out dates&quot;)&#10;public void the_user_provides_check_in_and_check_out_dates() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/rooms\\/availability&quot;)&#10;public void the_client_calls_get_rooms_availability() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns a list of available rooms&quot;)&#10;public void the_system_returns_a_list_of_available_rooms() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the user provides check-in and check-out dates' and 3 other step(s) are undefined.
+  <testcase name="Booking Management - Check room availability" classname="RunCucumberTest" time="0.004">
+    <error message="The step &apos;the user provides check-in and check-out dates&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user provides check-in and check-out dates&quot;)&#10;public void the_user_provides_check_in_and_check_out_dates() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls GET \\/rooms\\/availability&quot;)&#10;public void the_client_calls_get_rooms_availability() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns a list of available rooms&quot;)&#10;public void the_system_returns_a_list_of_available_rooms() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the user provides check-in and check-out dates' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the user provides check-in and check-out dates")
@@ -803,11 +542,6 @@ public void the_user_provides_check_in_and_check_out_dates() {
 }
 @When("the client calls GET \\/rooms\\/availability")
 public void the_client_calls_get_rooms_availability() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -823,13 +557,13 @@ public void the_system_returns_a_list_of_available_rooms() {
 &amp#27;[1mScenario:&amp#27;[22m Check room availability                        &amp#27;[90m# classpath:com/hotelbay/booking_management.feature:27&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe user provides check-in and check-out dates&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls GET /rooms/availability&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m          &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns a list of available rooms&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Payment Management - Process payment" classname="RunCucumberTest" time="0.006">
-    <error message="The step &apos;the guest has a pending reservation&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has a pending reservation&quot;)&#10;public void the_guest_has_a_pending_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/payments with a payment amount&quot;)&#10;public void the_client_calls_post_payments_with_a_payment_amount() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the payment status is set to processing&quot;)&#10;public void the_payment_status_is_set_to_processing() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the guest has a pending reservation' and 3 other step(s) are undefined.
+  <testcase name="Payment Management - Process payment" classname="RunCucumberTest" time="0.005">
+    <error message="The step &apos;the guest has a pending reservation&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the guest has a pending reservation&quot;)&#10;public void the_guest_has_a_pending_reservation() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/payments with a payment amount&quot;)&#10;public void the_client_calls_post_payments_with_a_payment_amount() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the payment status is set to processing&quot;)&#10;public void the_payment_status_is_set_to_processing() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the guest has a pending reservation' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the guest has a pending reservation")
@@ -839,11 +573,6 @@ public void the_guest_has_a_pending_reservation() {
 }
 @When("the client calls POST \\/payments with a payment amount")
 public void the_client_calls_post_payments_with_a_payment_amount() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -859,11 +588,11 @@ public void the_payment_status_is_set_to_processing() {
 &amp#27;[1mScenario:&amp#27;[22m Process payment                                      &amp#27;[90m# classpath:com/hotelbay/payment_management.feature:3&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe guest has a pending reservation&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /payments with a payment amount&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 201&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m201&amp#27;[22m&amp#27;[39m                &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe payment status is set to processing&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Payment Management - Confirm payment" classname="RunCucumberTest" time="0.006">
+  <testcase name="Payment Management - Confirm payment" classname="RunCucumberTest" time="0.009">
     <error message="The step &apos;a payment attempt is successful&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a payment attempt is successful&quot;)&#10;public void a_payment_attempt_is_successful() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the system calls PUT \\/payments\\/\\{id}\\/confirm&quot;)&#10;public void the_system_calls_put_payments_confirm() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns status code of {int}&quot;)&#10;public void the_system_returns_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the reservation state changes to confirmed&quot;)&#10;public void the_reservation_state_changes_to_confirmed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a payment attempt is successful' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -899,9 +628,9 @@ public void the_reservation_state_changes_to_confirmed() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe reservation state changes to confirmed&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Payment Management - Handle payment failure" classname="RunCucumberTest" time="0.007">
-    <error message="The step &apos;the client provides invalid payment details&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides invalid payment details&quot;)&#10;public void the_client_provides_invalid_payment_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/payments&quot;)&#10;public void the_client_calls_post_payments() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the reservation remains in a pending state&quot;)&#10;public void the_reservation_remains_in_a_pending_state() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client provides invalid payment details' and 3 other step(s) are undefined.
+  <testcase name="Payment Management - Handle payment failure" classname="RunCucumberTest" time="0.003">
+    <error message="The step &apos;the client provides invalid payment details&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides invalid payment details&quot;)&#10;public void the_client_provides_invalid_payment_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/payments&quot;)&#10;public void the_client_calls_post_payments() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the reservation remains in a pending state&quot;)&#10;public void the_reservation_remains_in_a_pending_state() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client provides invalid payment details' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client provides invalid payment details")
@@ -911,11 +640,6 @@ public void the_client_provides_invalid_payment_details() {
 }
 @When("the client calls POST \\/payments")
 public void the_client_calls_post_payments() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -931,11 +655,11 @@ public void the_reservation_remains_in_a_pending_state() {
 &amp#27;[1mScenario:&amp#27;[22m Handle payment failure                      &amp#27;[90m# classpath:com/hotelbay/payment_management.feature:15&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client provides invalid payment details&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /payments&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 400&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m400&amp#27;[22m&amp#27;[39m       &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe reservation remains in a pending state&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Category Management - Create room category" classname="RunCucumberTest" time="0.005">
+  <testcase name="Room Category Management - Create room category" classname="RunCucumberTest" time="0.002">
     <error message="The step &apos;an administrator is authenticated&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;an administrator is authenticated&quot;)&#10;public void an_administrator_is_authenticated() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator creates a new room category such as {string} or {string}&quot;)&#10;public void the_administrator_creates_a_new_room_category_such_as_or(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should store the new category&quot;)&#10;public void the_system_should_store_the_new_category() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'an administrator is authenticated' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -965,7 +689,7 @@ public void the_system_should_store_the_new_category() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should store the new category&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Category Management - Update room category" classname="RunCucumberTest" time="0.005">
+  <testcase name="Room Category Management - Update room category" classname="RunCucumberTest" time="0.003">
     <error message="The step &apos;a room category exists in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a room category exists in the system&quot;)&#10;public void a_room_category_exists_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator updates the category name or description&quot;)&#10;public void the_administrator_updates_the_category_name_or_description() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should save the updated category information&quot;)&#10;public void the_system_should_save_the_updated_category_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a room category exists in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -995,7 +719,7 @@ public void the_system_should_save_the_updated_category_information() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should save the updated category information&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Category Management - Delete room category" classname="RunCucumberTest" time="0.006">
+  <testcase name="Room Category Management - Delete room category" classname="RunCucumberTest" time="0.003">
     <error message="The step &apos;a room category exists&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a room category exists&quot;)&#10;public void a_room_category_exists() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator deletes the category&quot;)&#10;public void the_administrator_deletes_the_category() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the category should be removed from the system&quot;)&#10;public void the_category_should_be_removed_from_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;historical reservation information should remain unaffected&quot;)&#10;public void historical_reservation_information_should_remain_unaffected() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a room category exists' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1031,7 +755,7 @@ public void historical_reservation_information_should_remain_unaffected() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mhistorical reservation information should remain unaffected&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Category Management - List room categories" classname="RunCucumberTest" time="0.004">
+  <testcase name="Room Category Management - List room categories" classname="RunCucumberTest" time="0.003">
     <error message="The step &apos;several room categories exist in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;several room categories exist in the system&quot;)&#10;public void several_room_categories_exist_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;a user requests the list of room categories&quot;)&#10;public void a_user_requests_the_list_of_room_categories() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should return all available room categories&quot;)&#10;public void the_system_should_return_all_available_room_categories() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'several room categories exist in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1097,7 +821,7 @@ public void associate_the_room_with_the_hotel() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22massociate the room with the hotel&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Management - Update room information" classname="RunCucumberTest" time="0.004">
+  <testcase name="Room Management - Update room information" classname="RunCucumberTest" time="0.003">
     <error message="The step &apos;a room exists in a hotel&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a room exists in a hotel&quot;)&#10;public void a_room_exists_in_a_hotel() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator updates the room description or price&quot;)&#10;public void the_administrator_updates_the_room_description_or_price() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should save the updated room information&quot;)&#10;public void the_system_should_save_the_updated_room_information() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a room exists in a hotel' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1127,7 +851,7 @@ public void the_system_should_save_the_updated_room_information() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should save the updated room information&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Management - Delete room" classname="RunCucumberTest" time="0.004">
+  <testcase name="Room Management - Delete room" classname="RunCucumberTest" time="0.002">
     <error message="The step &apos;a room exists in a hotel&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a room exists in a hotel&quot;)&#10;public void a_room_exists_in_a_hotel() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the administrator deletes the room&quot;)&#10;public void the_administrator_deletes_the_room() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the room should be removed from the list of available rooms&quot;)&#10;public void the_room_should_be_removed_from_the_list_of_available_rooms() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;past reservations should remain recorded&quot;)&#10;public void past_reservations_should_remain_recorded() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a room exists in a hotel' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1163,7 +887,7 @@ public void past_reservations_should_remain_recorded() {
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mpast reservations should remain recorded&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Management - Search rooms" classname="RunCucumberTest" time="0.002">
+  <testcase name="Room Management - Search rooms" classname="RunCucumberTest" time="0.004">
     <error message="The step &apos;multiple hotels and rooms exist in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;multiple hotels and rooms exist in the system&quot;)&#10;public void multiple_hotels_and_rooms_exist_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;a user searches for rooms using filters such as location, category, price, and dates&quot;)&#10;public void a_user_searches_for_rooms_using_filters_such_as_location_category_price_and_dates() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should return rooms that match the search criteria and are available&quot;)&#10;public void the_system_should_return_rooms_that_match_the_search_criteria_and_are_available() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'multiple hotels and rooms exist in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1193,7 +917,7 @@ public void the_system_should_return_rooms_that_match_the_search_criteria_and_ar
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should return rooms that match the search criteria and are available&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Room Management - View room details" classname="RunCucumberTest" time="0.002">
+  <testcase name="Room Management - View room details" classname="RunCucumberTest" time="0.003">
     <error message="The step &apos;a room exists in the system&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a room exists in the system&quot;)&#10;public void a_room_exists_in_the_system() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;a user requests the room details&quot;)&#10;public void a_user_requests_the_room_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system should return the room type, capacity, price, and description&quot;)&#10;public void the_system_should_return_the_room_type_capacity_price_and_description() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
 The step 'a room exists in the system' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -1223,9 +947,9 @@ public void the_system_should_return_the_room_type_capacity_price_and_descriptio
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe system should return the room type, capacity, price, and description&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="User Authentication - User registration" classname="RunCucumberTest" time="0.003">
-    <error message="The step &apos;the client provides valid registration details&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides valid registration details&quot;)&#10;public void the_client_provides_valid_registration_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/register&quot;)&#10;public void the_client_calls_post_users_register() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;a new user account is created&quot;)&#10;public void a_new_user_account_is_created() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client provides valid registration details' and 3 other step(s) are undefined.
+  <testcase name="User Authentication - User registration" classname="RunCucumberTest" time="0.004">
+    <error message="The step &apos;the client provides valid registration details&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides valid registration details&quot;)&#10;public void the_client_provides_valid_registration_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/register&quot;)&#10;public void the_client_calls_post_users_register() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;a new user account is created&quot;)&#10;public void a_new_user_account_is_created() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client provides valid registration details' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client provides valid registration details")
@@ -1235,11 +959,6 @@ public void the_client_provides_valid_registration_details() {
 }
 @When("the client calls POST \\/users\\/register")
 public void the_client_calls_post_users_register() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -1255,13 +974,13 @@ public void a_new_user_account_is_created() {
 &amp#27;[1mScenario:&amp#27;[22m User registration                              &amp#27;[90m# classpath:com/hotelbay/user_authentication.feature:3&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client provides valid registration details&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /users/register&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 201&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m201&amp#27;[22m&amp#27;[39m          &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22ma new user account is created&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="User Authentication - User login" classname="RunCucumberTest" time="0.003">
-    <error message="The step &apos;the client provides valid login credentials&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides valid login credentials&quot;)&#10;public void the_client_provides_valid_login_credentials() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/login&quot;)&#10;public void the_client_calls_post_users_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns an authentication token&quot;)&#10;public void the_system_returns_an_authentication_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client provides valid login credentials' and 3 other step(s) are undefined.
+  <testcase name="User Authentication - User login" classname="RunCucumberTest" time="0.006">
+    <error message="The step &apos;the client provides valid login credentials&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client provides valid login credentials&quot;)&#10;public void the_client_provides_valid_login_credentials() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/login&quot;)&#10;public void the_client_calls_post_users_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the system returns an authentication token&quot;)&#10;public void the_system_returns_an_authentication_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client provides valid login credentials' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client provides valid login credentials")
@@ -1271,11 +990,6 @@ public void the_client_provides_valid_login_credentials() {
 }
 @When("the client calls POST \\/users\\/login")
 public void the_client_calls_post_users_login() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -1291,13 +1005,13 @@ public void the_system_returns_an_authentication_token() {
 &amp#27;[1mScenario:&amp#27;[22m User login                                  &amp#27;[90m# classpath:com/hotelbay/user_authentication.feature:9&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client provides valid login credentials&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /users/login&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m       &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe system returns an authentication token&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="User Authentication - User logout" classname="RunCucumberTest" time="0.003">
-    <error message="The step &apos;the client is logged in&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is logged in&quot;)&#10;public void the_client_is_logged_in() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/logout&quot;)&#10;public void the_client_calls_post_users_logout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the client receives status code of {int}&quot;)&#10;public void the_client_receives_status_code_of(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the authentication token is invalidated&quot;)&#10;public void the_authentication_token_is_invalidated() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'the client is logged in' and 3 other step(s) are undefined.
+  <testcase name="User Authentication - User logout" classname="RunCucumberTest" time="0.004">
+    <error message="The step &apos;the client is logged in&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the client is logged in&quot;)&#10;public void the_client_is_logged_in() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the client calls POST \\/users\\/logout&quot;)&#10;public void the_client_calls_post_users_logout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the authentication token is invalidated&quot;)&#10;public void the_authentication_token_is_invalidated() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the client is logged in' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
 @Given("the client is logged in")
@@ -1307,11 +1021,6 @@ public void the_client_is_logged_in() {
 }
 @When("the client calls POST \\/users\\/logout")
 public void the_client_calls_post_users_logout() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("the client receives status code of {int}")
-public void the_client_receives_status_code_of(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -1327,7 +1036,7 @@ public void the_authentication_token_is_invalidated() {
 &amp#27;[1mScenario:&amp#27;[22m User logout                           &amp#27;[90m# classpath:com/hotelbay/user_authentication.feature:15&amp#27;[39m
   &amp#27;[33m■&amp#27;[39m &amp#27;[33m&amp#27;[1mGiven &amp#27;[22mthe client is logged in&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mWhen &amp#27;[22mthe client calls POST /users/logout&amp#27;[39m
-  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of 200&amp#27;[39m
+  &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mThen &amp#27;[22mthe client receives status code of &amp#27;[1m200&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.hotelbay.steps.RefundStepDefinition.the_client_receives_status_code_of(java.lang.Integer)&amp#27;[39m
   &amp#27;[36m↷&amp#27;[39m &amp#27;[36m&amp#27;[1mAnd &amp#27;[22mthe authentication token is invalidated&amp#27;[39m
 ]]></system-out>
   </testcase>
